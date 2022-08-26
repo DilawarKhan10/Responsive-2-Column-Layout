@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+body{
+    background-color: #eff0ff;
+}
+.container{
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.wrap{
+    width: 1200px;
+    height: 660px;
+    /* border: 2px solid black; */
+    border-radius: 44px;
+    background-color: white;
+    display: flex;
+}
+.form-wrap{
+    width: 40%;
+    /* border: 2px solid red; */
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.logo{
+    /* border: 2px solid green; */
+    width: 160px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 422px;
+    height: 460px;
+    display: flex;
+    justify-content: end;
+    margin: 30px 0px;
+}
+.form .text{
+    /* border: 2px solid black; */
+    width: 326px;
+}
+.text .p1{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 400;
+}
+.text .p2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+}
+.form form{
+    padding-top: 30px;
+}
+.form form label{
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+}
+.form form input{
+    width: 326px;
+    height: 36px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 6px;
+}
+.link-container{
+    display: flex;
+    width: 326px;
+    justify-content:space-between ;
+    padding: 16px 0px;
+}
+.link-container .right a{
+   text-decoration: none;
+   color: #5429FF;
+   font-size: 14px;
+   line-height: 20px;
+}
+.btn1{
+    width: 326px;
+    height: 40px;
+    border-radius: 8px;
+    background: #5429FF;
+    color: white;
+    border: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.btn2{
+    width: 326px;
+    height: 40px;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid #D0D5DD;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p3{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 16px;
+}
+.p3 a{
+    text-decoration: none;
+    color: #5429FF;
+}
+.copy{
+    /* border: 2px solid green; */
+    width: 184px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.copy p{
+    font-style: italic;
+    font-size: 16px;
+    color: #667085;
+}
+.nft-wrap{
+    width: 60%;
+    height:660px ;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+}
+.nft-wrap img{
+    width: 580px;
+    height: 610px;
+}
